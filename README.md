@@ -3,7 +3,7 @@
 # Section 1: Java Spring Boot
 
 
-1- What is Spring Boot? How is it different from other Spring frameworks?
+1- **What is Spring Boot? How is it different from other Spring frameworks?**
 
 Spring Boot is a popular Java-based open-source framework that is used for building standalone, production-ready applications. It is built on top of the Spring framework and provides a simplified way to configure and deploy Spring-based applications.
 
