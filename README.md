@@ -63,17 +63,19 @@ Hot Reload is a feature in Flutter that allows developers to make changes to the
 
 11- **What is REST API? What are the key principles of REST architecture?**
 
-REST stands for Representational State Transfer, which is an architectural style for building web services. A RESTful API (Application Programming Interface) is a set of guidelines for building web services that13. What is CRUD? How is it used in REST API development? adhere to the principles of REST architecture.
+REST stands for Representational State Transfer, which is an architectural style for building web services. A RESTful API (Application Programming Interface) is a set of guidelines for building web services that adhere to the principles of REST architecture.
 
 The key principles of REST architecture are:
 
-Client-Server: The client and server are independent and can evolve separately. The client sends requests to the server, and the server responds with data.
+- Client-Server: The client and server are independent and can evolve separately. The client sends requests to the server, and the server responds with data.
 
-Stateless: The server does not maintain any client state. Each request from the client contains all the necessary information for the server to fulfill the request.
+- Stateless: The server does not maintain any client state. Each request from the client contains all the necessary information for the server to fulfill the request.
 
-Cacheable: Responses from the server can be cached to improve performance. Cacheability is determined by the response headers sent by the server.
+- Cacheable: Responses from the server can be cached to improve performance. Cacheability is determined by the response headers sent by the server.
 
-Uniform Interface: A uniform interface is used to separate the client from the server. This includes the use of HTTP verbs (GET, POST, PUT, DELETE) to represent different operations, and the use of URLs to identify resources.
+- Uniform Interface: A uniform interface is used to separate the client from the server. This includes the use of HTTP verbs (GET, POST, PUT, DELETE) to represent different operations, and the use of URLs to identify resources.
+
+- Layered System: The architecture is composed of layers of different components that work together to form a cohesive system.
 
 12- **Explain the difference between GET and POST requests in REST API.**
 
@@ -100,6 +102,10 @@ There are several benefits of using REST API in modern web development:
 - Security: REST API uses standard security protocols like HTTPS and OAuth for authentication and encryption, making it more secure.
 
 - Caching: REST API allows for caching of responses, which can improve the performance of applications.
+
+
+
+
 
 
 
